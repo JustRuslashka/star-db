@@ -1,0 +1,33 @@
+.itemList__body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 48%;
+    border-radius: 5px;
+    background-color: rgb(46, 45, 45);
+    margin: 30px 0px 0px 0px;
+}
+
+.itemList__body a{
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+    border: 1px solid rgb(92, 92, 90);
+}
+
+.itemList__body a:hover{
+    background-color: rgb(92, 92, 90);
+}
+
+.itemList__body a:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.itemList__body a:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
